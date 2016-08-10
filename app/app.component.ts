@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
-
-
 @Component({
     selector: 'my-app',
-    template: '<hero-form></hero-form>'
+    template: '<h1>{{title}}</h1>',
 })
-export class AppComponent { }
+export class AppComponent {
+    title = 'Minimal NgModule';
+}
